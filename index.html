@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Russell Cuts & Tattoo | Barber & Ink — Aurora, CO</title>
+  <meta name="description" content="Russell Cuts & Tattoo — Street-clean fades, sharp lineups, and custom ink. By appointment only. Aurora / Denver Metro, CO. Call, text, or WhatsApp 773-673-2865.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Russell Cuts & Tattoo | Barber & Ink — Aurora, CO">
+  <meta property="og:description" content="Street-clean fades, sharp lineups, and custom ink. By appointment only. Aurora / Denver Metro.">
+  <meta property="og:image" content="russell-logo-2025.png">
+  <meta property="og:type" content="website">
+
+  <!-- JSON-LD LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Russell Cuts & Tattoo",
+    "telephone": "+17736732865",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1440 Iola St Unit A",
+      "addressLocality": "Aurora",
+      "addressRegion": "CO",
+      "postalCode": "80010",
+      "addressCountry": "US"
+    },
+    "areaServed": "Denver Metro, CO",
+    "openingHours": ["Tu-Sa 09:00-18:00"],
+    "paymentAccepted": "Cash, Zelle"
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo" aria-label="Russell Cuts & Tattoo — Home">
+        <div class="nav__logo-wrap">
+          <img src="russell-logo-2025.png" alt="Russell Cuts & Tattoo Logo" class="nav__logo-img" width="50" height="50">
+        </div>
+      </a>
+
+      <!-- Language toggle — ALWAYS visible, never inside hamburger -->
+      <div class="nav__lang" role="group" aria-label="Language toggle">
+        <button class="lang-btn lang-btn--active" id="btnEN" aria-pressed="true" data-lang="en">🇺🇸 EN</button>
+        <button class="lang-btn" id="btnES" aria-pressed="false" data-lang="es">🌎 ES</button>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="nav__burger" id="navBurger" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__links" id="navMenu" role="list">
+        <li><a href="#hero" class="nav__link">Home / Inicio</a></li>
+        <li><a href="#services" class="nav__link">Services / Servicios</a></li>
+        <li><a href="#about" class="nav__link">About / Acerca</a></li>
+        <li><a href="#contact" class="nav__link">Contact / Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero" aria-labelledby="heroHeading">
+      <div class="hero__inner">
+        <div class="hero__logo-wrap">
+          <img src="russell-logo-2025.png" alt="Russell Cuts & Tattoo Logo" class="hero__logo-img" loading="eager">
+        </div>
+        <div class="hero__text">
+          <h1 id="heroHeading" class="hero__title">
+            <span class="lang-en">Russell Cuts &amp; Tattoo</span>
+            <span class="lang-es" hidden>Russell Cuts &amp; Tattoo</span>
+          </h1>
+          <p class="hero__sub">
+            <span class="lang-en"><strong>Appointment Only.</strong> Dark style. Street vibe. Authentic.</span>
+            <span class="lang-es" hidden><strong>Solo con cita.</strong> Estilo real. Vibra de la calle. Sin pretextos.</span>
+          </p>
+          <p class="hero__appt">
+            <span class="lang-en">All services are by appointment only. Text, call, or WhatsApp to book.</span>
+            <span class="lang-es" hidden>Todos los servicios son con cita previa. Escribe, llama o manda WhatsApp para reservar.</span>
+          </p>
+          <a href="#contact" class="btn">
+            <span class="lang-en">Book Now — Text or Call</span>
+            <span class="lang-es" hidden>Reserva Ya — Llama o Escríbenos</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services section" aria-labelledby="servicesHeading">
+      <div class="section__inner">
+        <h2 id="servicesHeading" class="section__title">
+          <span class="lang-en">✂️ Services</span>
+          <span class="lang-es" hidden>✂️ Servicios</span>
+        </h2>
+        <p class="section__sub appt-notice">
+          <span class="lang-en">📅 All services by appointment only — text, call, or WhatsApp to book.</span>
+          <span class="lang-es" hidden>📅 Todos los servicios con cita previa — escribe, llama o WhatsApp.</span>
+        </p>
+        <ul class="services__grid" role="list">
+          <li class="services__card">
+            <span class="services__icon" aria-hidden="true">💈</span>
+            <h3 class="services__name">
+              <span class="lang-en">Signature Fade</span>
+              <span class="lang-es" hidden>Fade a Tu Estilo</span>
+            </h3>
+            <p class="services__desc">
+              <span class="lang-en">Skin-tight or mid fade — dialed to your style.</span>
+              <span class="lang-es" hidden>Al ras o al medio — como tú lo quieres.</span>
+            </p>
+          </li>
+          <li class="services__card">
+            <span class="services__icon" aria-hidden="true">✂️</span>
+            <h3 class="services__name">
+              <span class="lang-en">Haircut &amp; Trim</span>
+              <span class="lang-es" hidden>Corte y Recorte</span>
+            </h3>
+            <p class="services__desc">
+              <span class="lang-en">Clean trims. Sharp lineups. Every detail matters.</span>
+              <span class="lang-es" hidden>Cortes limpios. Perfiles afilados. Cada detalle cuenta.</span>
+            </p>
+          </li>
+          <li class="services__card">
+            <span class="services__icon" aria-hidden="true">🪒</span>
+            <h3 class="services__name">
+              <span class="lang-en">Beard Lineup</span>
+              <span class="lang-es" hidden>Perfilado de Barba</span>
+            </h3>
+            <p class="services__desc">
+              <span class="lang-en">Crisp edges. Full shaping. Straight-razor finish.</span>
+              <span class="lang-es" hidden>Bordes limpios. Forma completa. Acabado con navaja recta.</span>
+            </p>
+          </li>
+          <li class="services__card">
+            <span class="services__icon" aria-hidden="true">🖋️</span>
+            <h3 class="services__name">
+              <span class="lang-en">Custom Tattoo</span>
+              <span class="lang-es" hidden>Tatuaje a Tu Medida</span>
+            </h3>
+            <p class="services__desc">
+              <span class="lang-en">Street art meets fine detail. Consult for pricing.</span>
+              <span class="lang-es" hidden>Arte urbano con detalle fino. Llama para ver precios.</span>
+            </p>
+          </li>
+          <li class="services__card">
+            <span class="services__icon" aria-hidden="true">🚗</span>
+            <h3 class="services__name">
+              <span class="lang-en">Mobile Service</span>
+              <span class="lang-es" hidden>Servicio a Domicilio</span>
+            </h3>
+            <p class="services__desc">
+              <span class="lang-en">Russell comes to you — Denver Metro area.</span>
+              <span class="lang-es" hidden>Russell va hasta donde estés — área de Denver.</span>
+            </p>
+          </li>
+          <li class="services__card">
+            <span class="services__icon" aria-hidden="true">👨‍👦</span>
+            <h3 class="services__name">
+              <span class="lang-en">Kids &amp; Family</span>
+              <span class="lang-es" hidden>Niños y Familia</span>
+            </h3>
+            <p class="services__desc">
+              <span class="lang-en">Multi-gen families welcome. Ask about group bookings.</span>
+              <span class="lang-es" hidden>Toda la familia es bienvenida. Pregunta por grupos.</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== HIGHLIGHTS ===== -->
+    <section id="highlights" class="highlights section" aria-labelledby="highlightsHeading">
+      <div class="section__inner">
+        <h2 id="highlightsHeading" class="section__title">
+          <span class="lang-en">Why Russell?</span>
+          <span class="lang-es" hidden>¿Por Qué Russell?</span>
+        </h2>
+        <ul class="highlights__grid" role="list">
+          <li class="highlights__item">
+            <span class="highlights__icon" aria-hidden="true">🏆</span>
+            <h3 class="lang-en">Seasoned Pro</h3>
+            <h3 class="lang-es" hidden>Profesional de Verdad</h3>
+            <p class="lang-en">Chicago &amp; FL trained. Years in Denver Metro.</p>
+            <p class="lang-es" hidden>Entrenado en Chicago y Florida. Con años en Denver.</p>
+          </li>
+          <li class="highlights__item">
+            <span class="highlights__icon" aria-hidden="true">📍</span>
+            <h3 class="lang-en">Mobile + In-Shop</h3>
+            <h3 class="lang-es" hidden>Va a Ti o Vienes</h3>
+            <p class="lang-en">We come to you or you come to us.</p>
+            <p class="lang-es" hidden>Te atendemos donde tú estés.</p>
+          </li>
+          <li class="highlights__item">
+            <span class="highlights__icon" aria-hidden="true">👪</span>
+            <h3 class="lang-en">Family First</h3>
+            <h3 class="lang-es" hidden>La Familia Primero</h3>
+            <p class="lang-en">Multi-gen regulars. Loyal clients for life.</p>
+            <p class="lang-es" hidden>Clientes de toda la familia. Lealtad de por vida.</p>
+          </li>
+          <li class="highlights__item">
+            <span class="highlights__icon" aria-hidden="true">✨</span>
+            <h3 class="lang-en">Detail Obsessed</h3>
+            <h3 class="lang-es" hidden>Obsesión por el Detalle</h3>
+            <p class="lang-en">From the cleanest fade to the finest ink — perfection every time.</p>
+            <p class="lang-es" hidden>Del fade más limpio a la tinta más fina — siempre al cien.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about section" aria-labelledby="aboutHeading">
+      <div class="section__inner about__inner">
+        <div class="about__text">
+          <h2 id="aboutHeading" class="section__title">
+            <span class="lang-en">✂️ Meet Russell</span>
+            <span class="lang-es" hidden>✂️ Conoce a Russell</span>
+          </h2>
+          <div class="lang-en">
+            <p>More than just a barber, Russell is a dedicated husband, a great dad, and a true craftsman who works hard for his family and his clients.</p>
+            <p>After honing his skills in Florida and Chicago, he brought his extensive experience to the Denver Metro area, where he has cultivated a strong and loyal following.</p>
+            <h3>Experience You Can Trust</h3>
+            <p>His ultimate reward is watching a client leave feeling fresh, renewed, and like new. Multi-generational families, friends, and brothers keep coming back — and that says everything.</p>
+          </div>
+          <div class="lang-es" hidden>
+            <p>Russell no es solo un barbero — es esposo dedicado, buen padre y artesano de verdad. Trabaja duro por su familia y por cada cliente que se sienta en su silla.</p>
+            <p>Pulió su arte en Florida y Chicago, y trajo toda esa experiencia al área de Denver, donde se ha ganado una clientela fiel que sigue creciendo.</p>
+            <h3>Experiencia en la que Puedes Confiar</h3>
+            <p>Su mayor satisfacción es ver a un cliente salir sintiéndose nuevo. Familias enteras, amigos y carnales siguen regresando — y eso lo dice todo.</p>
+          </div>
+        </div>
+        <div class="about__logo">
+          <img src="russell-logo-2025.png" alt="Russell Cuts & Tattoo Logo" loading="lazy" class="about__logo-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOCATION & HOURS ===== -->
+    <section id="location" class="location section" aria-labelledby="locationHeading">
+      <div class="section__inner location__inner">
+        <div class="location__info">
+          <h2 id="locationHeading" class="section__title">
+            <span class="lang-en">📍 Find Us</span>
+            <span class="lang-es" hidden>📍 Dónde Estamos</span>
+          </h2>
+          <address class="location__address">
+            <p><strong>1440 Iola St Unit A</strong><br>Aurora, CO 80010</p>
+            <p>
+              <span class="lang-en">Also serving all of Denver Metro via mobile appointments.</span>
+              <span class="lang-es" hidden>También atendemos todo el área de Denver a domicilio.</span>
+            </p>
+            <p>📞 <a href="tel:7736732865" class="location__phone">773-673-2865</a></p>
+          </address>
+        </div>
+        <div class="location__hours">
+          <h3 class="lang-en">Hours</h3>
+          <h3 class="lang-es" hidden>Horario</h3>
+          <table class="hours__table" aria-label="Business hours">
+            <tbody>
+              <tr>
+                <th scope="row"><span class="lang-en">Mon</span><span class="lang-es" hidden>Lun</span></th>
+                <td><span class="lang-en">Closed</span><span class="lang-es" hidden>Cerrado</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="lang-en">Tue–Fri</span><span class="lang-es" hidden>Mar–Vie</span></th>
+                <td>9:00 AM – 6:00 PM</td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="lang-en">Sat</span><span class="lang-es" hidden>Sáb</span></th>
+                <td>9:00 AM – 6:00 PM</td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="lang-en">Sun</span><span class="lang-es" hidden>Dom</span></th>
+                <td><span class="lang-en">By appt only</span><span class="lang-es" hidden>Solo con cita previa</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact section" aria-labelledby="contactHeading">
+      <div class="section__inner">
+        <h2 id="contactHeading" class="section__title">
+          <span class="lang-en">Book Now</span>
+          <span class="lang-es" hidden>Reserva Tu Cita</span>
+        </h2>
+
+        <p class="contact__intro">
+          <span class="lang-en">All services are by appointment only. Text, call, or WhatsApp to book. No forms, no wait.</span>
+          <span class="lang-es" hidden>Todos los servicios son con cita previa. Escribe, llama o manda WhatsApp para reservar. Sin formularios, sin esperas.</span>
+        </p>
+
+        <!-- Contact channels -->
+        <div class="contact__channels">
+          <a href="tel:7736732865" class="contact__channel">
+            <span class="contact__channel-icon" aria-hidden="true">📞</span>
+            <span class="contact__channel-label lang-en">Call Now</span>
+            <span class="contact__channel-label lang-es" hidden>Llámanos</span>
+            <small>773-673-2865</small>
+          </a>
+          <a href="sms:7736732865" class="contact__channel">
+            <span class="contact__channel-icon" aria-hidden="true">💬</span>
+            <span class="contact__channel-label lang-en">Text Now</span>
+            <span class="contact__channel-label lang-es" hidden>Manda un Texto</span>
+            <small>773-673-2865</small>
+          </a>
+          <a href="https://wa.me/17736732865" target="_blank" rel="noopener noreferrer" class="contact__channel">
+            <span class="contact__channel-icon" aria-hidden="true">📱</span>
+            <span class="contact__channel-label">WhatsApp</span>
+            <small>773-673-2865</small>
+          </a>
+        </div>
+
+        <!-- Zelle block — always visible without JS -->
+        <div class="contact__zelle" aria-label="Zelle payment information">
+          <h3 class="contact__zelle-title">
+            <span class="lang-en">💸 Pay with Zelle</span>
+            <span class="lang-es" hidden>💸 Paga con Zelle</span>
+          </h3>
+          <p class="lang-en">Send payment to <strong>773-673-2865</strong>. Confirm by text after paying. Tips are always appreciated! 🙏</p>
+          <p class="lang-es" hidden>Manda el pago al <strong>773-673-2865</strong> por Zelle. Confírmalo por texto. ¡Las propinas siempre son bienvenidas! 🙏</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer" class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <img src="russell-logo-2025.png" alt="Russell Cuts & Tattoo" class="site-footer__logo" loading="lazy" width="40" height="40">
+      <p>&copy; 2025 Russell Cuts &amp; Tattoo — Aurora, CO</p>
+      <p>
+        <a href="tel:7736732865">773-673-2865</a>
+        &nbsp;·&nbsp;
+        <a href="https://wa.me/17736732865" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </p>
+      <p class="site-footer__legal">
+        <span class="lang-en">Site for informational purposes only. Prices may vary.</span>
+        <span class="lang-es" hidden>Solo para fines informativos. Los precios pueden variar.</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
